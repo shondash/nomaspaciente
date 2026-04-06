@@ -1,0 +1,5 @@
+.claude/worktrees/
+.playwright-mcp/
+.planning/
+node_modules/
+CLAUDE.md
