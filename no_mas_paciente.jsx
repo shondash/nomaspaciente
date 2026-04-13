@@ -12,19 +12,19 @@ function useIsMobile(breakpoint = 768) {
 }
 
 const C = {
-  primary: "#6B1D2A",
-  primaryDark: "#4A1019",
-  secondary: "#2D6A4F",
-  accent: "#A67C3D",
+  primary: "#3D3066",
+  primaryDark: "#2A2050",
+  secondary: "#B85A18",
+  accent: "#C47F0A",
   bg: "#FAF6F0",
   surface: "#FFFFFF",
   text: "#2C1810",
   textSec: "#6B5E54",
   border: "#E0D5C8",
   info: "#2E6B8A",
-  success: "#2D6A4F",
+  success: "#B85A18",
   error: "#8B2020",
-  successLight: "#F0F7F4",
+  successLight: "#FDF5EE",
   legalBg: "#F5F0E8",
   heroBg: "#F3ECE1",
 };
