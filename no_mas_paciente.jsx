@@ -1613,10 +1613,10 @@ export default function NoMasPaciente() {
             {/* Hero */}
             <div style={{ background: C.heroBg, borderRadius: 10, padding: "26px 26px 22px", margin: "0 0 28px", border: `1px solid ${C.border}` }}>
               <p style={{ margin: "0 0 10px", fontSize: 17, fontWeight: 700, color: C.primary, lineHeight: 1.45 }}>
-                Si alguna vez te han negado atencion, te han hecho esperar cuando mas lo necesitabas, o te han dicho que compres tu propio medicamento — esta guia es para ti y tu familia.
+                Si alguna vez te han negado atención, te han hecho esperar cuando más lo necesitabas, o te han dicho que compres tu propio medicamento — esta guía es para ti y tu familia.
               </p>
               <p style={{ margin: 0, fontSize: 13.5, color: C.textSec, lineHeight: 1.6 }}>
-                La ley mexicana te protege mas de lo que crees. Aqui te explicamos tus derechos en lenguaje claro, con las leyes exactas que los respaldan.
+                La ley mexicana te protege más de lo que crees. Aquí te explicamos tus derechos en lenguaje claro, con las leyes exactas que los respaldan.
               </p>
             </div>
 
@@ -1638,7 +1638,7 @@ export default function NoMasPaciente() {
               <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 20, fontWeight: 700, color: C.error, width: 40, height: 40, display: "flex", alignItems: "center", justifyContent: "center", background: `${C.error}10`, borderRadius: "50%", flexShrink: 0 }}>!</div>
               <div>
                 <div style={{ fontSize: 13, fontWeight: 700, color: C.error, marginBottom: 2 }}>Si es una emergencia ahora mismo</div>
-                <div style={{ fontSize: 12.5, color: C.text, lineHeight: 1.5 }}>Llama al <b>911</b>. Ningun hospital puede negarte atencion de urgencias. Si lo hacen, llama a la CNDH: <b>800-008-6900</b>.</div>
+                <div style={{ fontSize: 12.5, color: C.text, lineHeight: 1.5 }}>Llama al <b>911</b>. Ningún hospital puede negarte atención de urgencias. Si lo hacen, llama a la CNDH: <b>800 008 6900</b>.</div>
               </div>
             </div>
           </div>
