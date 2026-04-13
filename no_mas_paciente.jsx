@@ -2198,10 +2198,10 @@ export default function NoMasPaciente() {
                 <div key={i} style={{ background: C.surface, border: `1px solid ${C.border}`, borderRadius: 8, padding: "14px 16px", borderTop: `3px solid ${C.secondary}` }}>
                   <div style={{ fontSize: 14, fontWeight: 700, color: C.primary, marginBottom: 1 }}>{r.n}</div>
                   {r.d && <div style={{ fontSize: 11, color: C.textSec, marginBottom: 6 }}>{r.d}</div>}
-                  <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 15, color: C.secondary, fontWeight: 700 }}>{r.t}</div>
+                  <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 15, fontWeight: 700 }}><a href={`tel:${r.t.split("/")[0].replace(/\s/g, "")}`} style={{ color: C.secondary, textDecoration: "none" }}>{r.t}</a></div>
                   {r.dir && <div style={{ fontSize: 11, color: C.textSec, marginTop: 3 }}>{r.dir}</div>}
-                  {r.w && <div style={{ fontSize: 11, color: C.info, marginTop: 2 }}>{r.w}</div>}
-                  {r.e && <div style={{ fontSize: 11, color: C.info, marginTop: 2 }}>{r.e}</div>}
+                  {r.w && <div style={{ fontSize: 11, marginTop: 2 }}><a href={r.w.startsWith("http") ? r.w : `https://${r.w}`} target="_blank" rel="noopener noreferrer" style={{ color: C.info, textDecoration: "none" }}>{r.w}</a></div>}
+                  {r.e && <div style={{ fontSize: 11, marginTop: 2 }}><a href={`mailto:${r.e}`} style={{ color: C.info, textDecoration: "none" }}>{r.e}</a></div>}
                 </div>
               ))}
             </div>
