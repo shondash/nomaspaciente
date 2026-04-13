@@ -1543,7 +1543,7 @@ export default function NoMasPaciente() {
   const [openFrase, setOpenFrase] = useState(-1);
   const [chapter, setChapter] = useState(0);
   const [faqOpen, setFaqOpen] = useState(-1);
-  const [tone, setTone] = useState("directo");
+  const tone = "tranquilo";
   const [quejaStep, setQuejaStep] = useState(0);
   const [quejaAnswers, setQuejaAnswers] = useState({});
   const isMobile = useIsMobile();
@@ -1595,18 +1595,7 @@ export default function NoMasPaciente() {
         <div style={{ maxWidth: 880, margin: "0 auto" }}>
           <h1 style={{ margin: 0, fontSize: 24, fontWeight: 800, color: "#FFF8F0", letterSpacing: "-0.02em" }}>NO MAS PACIENTE</h1>
           <div style={{ width: 36, height: 2.5, background: C.accent, margin: "6px 0 0", borderRadius: 2 }} />
-          <div style={{ marginTop: 10, display: "flex", gap: 8, alignItems: "center" }}>
-          <button
-            onClick={() => setTone(t => t === "directo" ? "tranquilo" : "directo")}
-            style={{
-              padding: "4px 12px", borderRadius: 4,
-              background: "transparent", border: `1px solid ${C.accent}60`,
-              color: C.accent, fontSize: 11, cursor: "pointer",
-              fontFamily: "'Space Mono', monospace", letterSpacing: "0.05em",
-            }}
-          >
-            {TONE_STRINGS[tone].toneToggleLabel}
-          </button>
+          <div style={{ marginTop: 10 }}>
           <button
             onClick={handleInstall}
             style={{
@@ -1705,7 +1694,7 @@ export default function NoMasPaciente() {
                       <p style={{ fontSize: 12, color: C.textSec, margin: "0 0 8px", lineHeight: 1.5, fontStyle: "italic" }}>{f.sit}</p>
                       <div style={{ background: C.successLight, border: `1px solid ${C.secondary}22`, borderRadius: 5, padding: "10px 14px", marginBottom: 8 }}>
                         <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 9.5, color: C.secondary, fontWeight: 700, marginBottom: 4, letterSpacing: "0.06em" }}>LO QUE PUEDES CONTESTAR:</div>
-                        <div style={{ fontSize: 13, lineHeight: 1.55, color: C.text }}>&ldquo;{tone === "directo" ? f.resp : f.respTranquilo}&rdquo;</div>
+                        <div style={{ fontSize: 13, lineHeight: 1.55, color: C.text }}>&ldquo;{f.respTranquilo}&rdquo;</div>
                       </div>
                       <span style={{ fontFamily: "'Space Mono', monospace", fontSize: 9.5, color: C.primary, background: C.legalBg, padding: "3px 8px", borderRadius: 3, display: "inline-block" }}>{f.ley}</span>
                       {/* Cross-reference links — per D-03 */}
@@ -2079,8 +2068,8 @@ export default function NoMasPaciente() {
                 );
               }
 
-              const currentSteps = tone === "directo" ? path.steps : path.stepsTranquilo;
-              const currentSituationIntro = tone === "directo" ? path.situationIntro : path.situationIntroTranquilo;
+              const currentSteps = path.stepsTranquilo;
+              const currentSituationIntro = path.situationIntroTranquilo;
               const situationLabel = QUEJA_SCENARIOS.find(s => s.id === quejaAnswers.situation)?.label;
 
               return (
