@@ -221,7 +221,7 @@ const CHAPTERS_V2 = [
         },
         {
           term: "Amparo",
-          def: "Juicio constitucional ante un juzgado federal para proteger tus derechos cuando el gobierno los viola. Requiere abogado, pero puedes obtener uno gratis en la Defensoría Pública Federal (800 009 1700). Ha funcionado para obligar al IMSS a entregar medicamentos oncológicos."
+          def: "Juicio constitucional ante un juzgado federal para proteger tus derechos cuando el gobierno los viola. Requiere abogado, pero puedes obtener uno gratis en la Defensoría Pública Federal (800 22 42 426). Ha funcionado para obligar al IMSS a entregar medicamentos oncológicos."
         },
         {
           term: "Urgencia obstétrica",
@@ -523,10 +523,10 @@ const CHAPTERS_V2 = [
       headline: "Sin seguro social, el Estado está constitucionalmente obligado a darte atención médica gratuita — eso no es caridad, es ley.",
       steps: [
         "Tienes derecho a consultas, hospitalización, cirugía y medicamentos gratuitos en unidades de IMSS-Bienestar y Secretaría de Salud (LGS Art. 77 Bis 1). No te pueden cobrar cuotas de recuperación si no tienes seguridad social.",
-        "Si te cobran o te niegan atención: llama al CAT de IMSS-Bienestar — 800 298 11 50 (lunes a viernes, 9:00-15:00 y 17:00-19:00) — o escribe a siemprecontigo@imssbienestar.gob.mx.",
+        "Si te cobran o te niegan atención: llama al CAT de IMSS-Bienestar — 800 298 1150 (lunes a viernes, 9:00-15:00 y 17:00-19:00) — o escribe a siemprecontigo@imssbienestar.gob.mx.",
         "Si el problema no se resuelve, escala a la CNDH (800 008 6900, 24 horas). Para hospitales IMSS-Bienestar OPD (hospitales estatales absorbidos), la CNDH es la vía de escalamiento principal — no el OIC del IMSS."
       ],
-      phone: "800 298 11 50",
+      phone: "800 298 1150",
       crossRef: "queja"
     },
     legal: {
@@ -552,14 +552,14 @@ const CHAPTERS_V2 = [
       headline: "Hay cinco niveles de queja, de más fácil a más fuerte — empieza desde el primero y documenta todo.",
       steps: [
         "NIVEL 1 (hoy): Presenta queja escrita en el Módulo de Atención del mismo hospital. Exige copia con sello de recibido. Este paso es obligatorio para IMSS e ISSSTE antes de ir a CONAMED.",
-        "NIVEL 2 (si no resuelven en 15 días): OIC del IMSS (800 623 2323 op.6) o Comisión de Quejas ISSSTE (800 012 7835). Para IMSS-Bienestar: CAT 800 298 11 50 o CNDH directamente.",
-        "NIVEL 3 en adelante: CONAMED para conciliar (800 711 0658), CNDH para derechos humanos (800 008 6900), amparo con abogado para orden judicial (Defensoría Pública Federal 800 009 1700)."
+        "NIVEL 2 (si no resuelven en 15 días): OIC del IMSS (800 623 2323 op.6) o Comisión de Quejas ISSSTE (800 012 7835). Para IMSS-Bienestar: CAT 800 298 1150 o CNDH directamente.",
+        "NIVEL 3 en adelante: CONAMED para conciliar (800 711 0658), CNDH para derechos humanos (800 008 6900), amparo con abogado para orden judicial (Defensoría Pública Federal 800 22 42 426)."
       ],
       phone: "800 711 0658",
       crossRef: "queja"
     },
     legal: {
-      body: "La LGS Art. 54 obliga a todas las instituciones de salud a tener mecanismos internos para recibir quejas y orientación — el módulo interno no es optativo. NIVEL 1 — Módulo interno del hospital: siempre es el primer paso. Para IMSS e ISSSTE, este paso es prerequisito para acceder a CONAMED. Guarda siempre el acuse de recibo con sello y folio. NIVEL 2 — OIC del IMSS (800 623 2323 opción 6; imss.gob.mx/oic/quejasydenuncias) o Comisión de Quejas ISSSTE (800 012 7835; Reglamento DOF 27-09-2024): puede investigar al personal de la institución, imponer sanciones administrativas, y tomar medidas correctivas. Plazo de resolución: 60 días en IMSS, 115 días hábiles en ISSSTE. NIVEL 3 — CONAMED (800 711 0658; primera_atencion@conamed.gob.mx; Av. Marina Nacional 60, CDMX): busca acuerdo entre tú y la institución mediante conciliación o arbitraje. IMPORTANTE: CONAMED NO puede sancionar penalmente al médico, NO puede revocar licencias médicas, y NO puede obligar a ninguna de las partes sin acuerdo previo para el arbitraje. Haber ido a CONAMED no te quita el derecho de demandar civilmente después (SCJN 1a./J. 27/2025 — HIGH confidence). Plazo típico: 3-4 meses para conciliación. NIVEL 4 — CNDH (800 008 6900, 24 horas para urgencias; Periférico Sur 3469, CDMX): investiga violaciones a derechos humanos. Plazo: 90 días (extensible). Sus recomendaciones no son vinculantes, pero generan presión institucional. Ideal para casos de discriminación, violaciones sistemáticas, y cuando el OIC no respondió. Plazo para presentar: 1 año desde la violación. NIVEL 5 — Amparo: requiere abogado pero la Defensoría Pública Federal es gratuita (800 009 1700). El juez puede emitir una suspensión provisional que obliga a la institución a actuar mientras se resuelve el juicio. Ha funcionado para obligar al IMSS a entregar medicamentos oncológicos. Situaciones donde el amparo tiene precedentes de éxito: desabasto de medicamentos crónicos o de cáncer, negativa de urgencias con daño resultante, violación sistemática de derecho fundamental sin remedio administrativo efectivo.",
+      body: "La LGS Art. 54 obliga a todas las instituciones de salud a tener mecanismos internos para recibir quejas y orientación — el módulo interno no es optativo. NIVEL 1 — Módulo interno del hospital: siempre es el primer paso. Para IMSS e ISSSTE, este paso es prerequisito para acceder a CONAMED. Guarda siempre el acuse de recibo con sello y folio. NIVEL 2 — OIC del IMSS (800 623 2323 opción 6; imss.gob.mx/oic/quejasydenuncias) o Comisión de Quejas ISSSTE (800 012 7835; Reglamento DOF 27-09-2024): puede investigar al personal de la institución, imponer sanciones administrativas, y tomar medidas correctivas. Plazo de resolución: 60 días en IMSS, 115 días hábiles en ISSSTE. NIVEL 3 — CONAMED (800 711 0658; primera_atencion@conamed.gob.mx; Av. Marina Nacional 60, CDMX): busca acuerdo entre tú y la institución mediante conciliación o arbitraje. IMPORTANTE: CONAMED NO puede sancionar penalmente al médico, NO puede revocar licencias médicas, y NO puede obligar a ninguna de las partes sin acuerdo previo para el arbitraje. Haber ido a CONAMED no te quita el derecho de demandar civilmente después (SCJN 1a./J. 27/2025 — HIGH confidence). Plazo típico: 3-4 meses para conciliación. NIVEL 4 — CNDH (800 008 6900, 24 horas para urgencias; Periférico Sur 3469, CDMX): investiga violaciones a derechos humanos. Plazo: 90 días (extensible). Sus recomendaciones no son vinculantes, pero generan presión institucional. Ideal para casos de discriminación, violaciones sistemáticas, y cuando el OIC no respondió. Plazo para presentar: 1 año desde la violación. NIVEL 5 — Amparo: requiere abogado pero la Defensoría Pública Federal es gratuita (800 22 42 426). El juez puede emitir una suspensión provisional que obliga a la institución a actuar mientras se resuelve el juicio. Ha funcionado para obligar al IMSS a entregar medicamentos oncológicos. Situaciones donde el amparo tiene precedentes de éxito: desabasto de medicamentos crónicos o de cáncer, negativa de urgencias con daño resultante, violación sistemática de derecho fundamental sin remedio administrativo efectivo.",
       jurisprudencias: [
         {
           type: "scjn",
@@ -574,7 +574,7 @@ const CHAPTERS_V2 = [
     populations: {
       imss: "En el IMSS: el orden obligatorio es módulo interno → OIC IMSS → CONAMED → CNDH → amparo. Si vas a CONAMED sin haber pasado por el módulo interno, tu queja puede ser rechazada por falta de agotamiento de instancias previas. OIC IMSS: 800 623 2323 opción 6.",
       issste: "En el ISSSTE: módulo del hospital → Comisión de Quejas ISSSTE (Reglamento 2024, plazo 115 días) → CONAMED → CNDH → amparo. El Reglamento ISSSTE 2024 da 5 días para complementar documentos si hay faltantes, y el plazo para presentar la queja es de 2 años desde los hechos. Teléfono: 800 012 7835.",
-      sinSeguro: "En IMSS-Bienestar o SSA: no hay OIC equivalente al IMSS. El camino es: CAT IMSS-Bienestar (800 298 11 50) → CNDH (800 008 6900) → CONAMED (800 711 0658) → amparo. La CNDH es el escalamiento principal para violaciones en hospitales del sistema público no IMSS/ISSSTE."
+      sinSeguro: "En IMSS-Bienestar o SSA: no hay OIC equivalente al IMSS. El camino es: CAT IMSS-Bienestar (800 298 1150) → CNDH (800 008 6900) → CONAMED (800 711 0658) → amparo. La CNDH es el escalamiento principal para violaciones en hospitales del sistema público no IMSS/ISSSTE."
     }
   },
 
@@ -673,13 +673,13 @@ const CHAPTERS_V2 = [
       crossRef: null
     },
     legal: {
-      body: "ANTICONCEPCIÓN — La LGS Art. 67 establece que los servicios de planificación familiar tienen carácter prioritario y reconoce el derecho de toda persona a decidir libremente sobre el número y espaciamiento de sus hijos. El IMSS y el ISSSTE están obligados a proporcionar métodos anticonceptivos gratuitos en sus unidades de medicina familiar. La LGS Art. 68 (citada con MEDIUM confidence — texto confirmado en fuentes secundarias pero no verificado directamente del PDF oficial actualizado) lista los servicios de planificación familiar: programas de educación, atención y seguimiento de usuarios, y consejería. Los adolescentes tienen derecho a acceder a consejería en anticoncepción en centros de salud públicos, aunque la implementación varía por unidad. ILE EN EL IMSS — La SCJN, en el Amparo en Revisión 267/2023 (Primera Sala, resolución 6 de septiembre de 2023, Ministra Ana Margarita Ríos Farjat — criterio no verificado directamente en el Semanario Judicial de la Federación), declaró inconstitucionales los Arts. 331 y 332 del Código Penal Federal que criminalizaban el aborto, y estableció que las instituciones federales de salud deben proporcionar servicios de ILE voluntaria. IMSS publicó guía técnica institucional y comenzó a ofrecer el servicio. ESTADO-DEPENDENCIA OBLIGATORIA: la disponibilidad del servicio en el IMSS sigue la legislación estatal — en estados donde el código penal local aún criminaliza el aborto, el IMSS no puede garantizar el acceso. El IMSS mismo ha declarado que la disponibilidad sigue la ley local. Para verificar si aplica en tu estado, usa el WhatsApp informativo del IMSS: 55 4595 0448 (número citado en fuentes de noticias — MEDIUM confidence para vigencia actual). ILE EN EL ISSSTE — El Director General del ISSSTE publicó un Acuerdo en el DOF el 23 de enero de 2025 (código DOF 5747609) que entró en vigor el 24 de enero de 2025 — fuente HIGH confidence verificada en DOF. Este Acuerdo establece: consentimiento informado obligatorio, registro de objetores de conciencia (para garantizar que la objeción de un médico no bloquee el acceso), y disponibilidad del servicio en unidades ISSSTE participantes. La lista de unidades participantes se actualiza en gob.mx/issste/articulos/interrupcion-legal-del-embarazo-ile. Contacto para información: atencionciudadana@issste.gob.mx. La misma limitación de estado-dependencia aplica al ISSSTE: donde la ley local criminaliza el aborto, la implementación puede estar restringida.",
+      body: "ANTICONCEPCIÓN — La LGS Art. 67 establece que los servicios de planificación familiar tienen carácter prioritario y reconoce el derecho de toda persona a decidir libremente sobre el número y espaciamiento de sus hijos. El IMSS y el ISSSTE están obligados a proporcionar métodos anticonceptivos gratuitos en sus unidades de medicina familiar. La LGS Art. 68 (citada con MEDIUM confidence — texto confirmado en fuentes secundarias pero no verificado directamente del PDF oficial actualizado) lista los servicios de planificación familiar: programas de educación, atención y seguimiento de usuarios, y consejería. Los adolescentes tienen derecho a acceder a consejería en anticoncepción en centros de salud públicos, aunque la implementación varía por unidad. ILE EN EL IMSS — La SCJN, en el Amparo en Revisión 267/2023 (Primera Sala, resolución 6 de septiembre de 2023, Ministra Ana Margarita Ríos Farjat — criterio no verificado directamente en el Semanario Judicial de la Federación), declaró inconstitucionales los Arts. 331 y 332 del Código Penal Federal que criminalizaban el aborto, y estableció que las instituciones federales de salud deben proporcionar servicios de ILE voluntaria. IMSS publicó guía técnica institucional y comenzó a ofrecer el servicio. ESTADO-DEPENDENCIA OBLIGATORIA: la disponibilidad del servicio en el IMSS sigue la legislación estatal — en estados donde el código penal local aún criminaliza el aborto, el IMSS no puede garantizar el acceso. El IMSS mismo ha declarado que la disponibilidad sigue la ley local. Para verificar si aplica en tu estado, usa el WhatsApp informativo del IMSS: 55 4595 0448 (número citado en fuentes de noticias — MEDIUM confidence para vigencia actual). ILE EN EL ISSSTE — El Director General del ISSSTE publicó un Acuerdo en el DOF el 23 de enero de 2025 (código DOF 5747609) que entró en vigor el 24 de enero de 2025 — fuente HIGH confidence verificada en DOF. Este Acuerdo establece: consentimiento informado obligatorio, registro de objetores de conciencia (para garantizar que la objeción de un médico no bloquee el acceso), y disponibilidad del servicio en unidades ISSSTE participantes. La lista de unidades participantes se actualiza en gob.mx/issste/articulos/interrupcion-legal-del-embarazo-ile. Contacto para información: cat.issste@issste.gob.mx. La misma limitación de estado-dependencia aplica al ISSSTE: donde la ley local criminaliza el aborto, la implementación puede estar restringida.",
       jurisprudencias: [],
       noms: []
     },
     populations: {
       imss: "En el IMSS: anticoncepción gratuita en tu UMF (solicítala directamente al médico familiar). ILE disponible en CDMX y estados con despenalización — llama al 55 4595 0448 para verificar disponibilidad en tu estado antes de ir. El IMSS tiene guía técnica institucional de ILE; la disponibilidad varía por unidad.",
-      issste: "En el ISSSTE: anticoncepción gratuita en unidades de medicina familiar. ILE regulada por el Acuerdo del Director General DOF 23-01-2025 — disponible en unidades participantes. Lista de unidades: gob.mx/issste/articulos/interrupcion-legal-del-embarazo-ile. Contacto: atencionciudadana@issste.gob.mx.",
+      issste: "En el ISSSTE: anticoncepción gratuita en unidades de medicina familiar. ILE regulada por el Acuerdo del Director General DOF 23-01-2025 — disponible en unidades participantes. Lista de unidades: gob.mx/issste/articulos/interrupcion-legal-del-embarazo-ile. Contacto: cat.issste@issste.gob.mx.",
       sinSeguro: "Sin seguridad social: anticoncepción gratuita disponible en centros de salud de la SSA e IMSS-Bienestar (LGS Art. 67). Para ILE sin seguro, las opciones dependen de tu estado — las organizaciones de la sociedad civil que brindan acompañamiento gratuito incluyen IPAS México (ipas.org) y las Redes de acompañantes por estado."
     }
   },
@@ -1451,8 +1451,8 @@ const RECURSOS = [
   {
     n: "CNDH",
     d: "Derechos humanos — atención 24 h",
-    t: "800 008 6900",
-    dir: "Periférico Sur 3469, Col. San Jerónimo Lídice, CDMX",
+    t: "800 715 2000 / 800 008 6900",
+    dir: "Periférico Sur 3469, Col. San Jerónimo Lídice, Alc. La Magdalena Contreras, C.P. 10200, CDMX",
     w: "cndh.org.mx",
   },
   // Source: Defensatel ifdp.cjf.gob.mx — verified 2025; old number 800-009-1700 not confirmed by any source
@@ -1512,7 +1512,7 @@ const RECURSOS = [
     n: "Secretaría de Salud — OIC",
     d: "Quejas sobre hospitales y centros de salud SSA",
     t: "—",
-    e: "quejas@salud.gob.mx",
+    e: "atencionciudadanaoic@salud.gob.mx",
     w: "gob.mx/salud",
   },
   // Source: gob.mx/conasama — verified 2025
