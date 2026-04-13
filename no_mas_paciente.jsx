@@ -1560,6 +1560,24 @@ export default function NoMasPaciente() {
     }
   };
 
+  // PWA install prompt
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  useEffect(() => {
+    const handler = (e) => { e.preventDefault(); setDeferredPrompt(e); };
+    window.addEventListener("beforeinstallprompt", handler);
+    return () => window.removeEventListener("beforeinstallprompt", handler);
+  }, []);
+  const handleInstall = async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      setDeferredPrompt(null);
+    } else {
+      // Fallback: print the page (works on all browsers)
+      window.print();
+    }
+  };
+
   const [expandedSections, setExpandedSections] = useState({});
   const toggleSection = (chapterId, sectionKey) => {
     setExpandedSections(prev => ({
@@ -1577,10 +1595,11 @@ export default function NoMasPaciente() {
         <div style={{ maxWidth: 880, margin: "0 auto" }}>
           <h1 style={{ margin: 0, fontSize: 24, fontWeight: 800, color: "#FFF8F0", letterSpacing: "-0.02em" }}>NO MAS PACIENTE</h1>
           <div style={{ width: 36, height: 2.5, background: C.accent, margin: "6px 0 0", borderRadius: 2 }} />
+          <div style={{ marginTop: 10, display: "flex", gap: 8, alignItems: "center" }}>
           <button
             onClick={() => setTone(t => t === "directo" ? "tranquilo" : "directo")}
             style={{
-              marginTop: 10, padding: "4px 12px", borderRadius: 4,
+              padding: "4px 12px", borderRadius: 4,
               background: "transparent", border: `1px solid ${C.accent}60`,
               color: C.accent, fontSize: 11, cursor: "pointer",
               fontFamily: "'Space Mono', monospace", letterSpacing: "0.05em",
@@ -1588,6 +1607,19 @@ export default function NoMasPaciente() {
           >
             {TONE_STRINGS[tone].toneToggleLabel}
           </button>
+          <button
+            onClick={handleInstall}
+            style={{
+              padding: "4px 12px", borderRadius: 4,
+              background: C.accent, border: "none",
+              color: "#FFF", fontSize: 11, cursor: "pointer",
+              fontFamily: "'Space Mono', monospace", letterSpacing: "0.05em",
+              fontWeight: 700,
+            }}
+          >
+            {deferredPrompt ? "Instalar app" : "Descargar"}
+          </button>
+          </div>
         </div>
       </div>
 
